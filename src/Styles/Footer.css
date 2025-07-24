@@ -1,0 +1,44 @@
+.main-footer {
+  background-color: var(--dark-bg-secondary);
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.footer-container h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.contact-info a {
+  color: var(--light-text);
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: var(--purple);
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.footer-bottom a {
+    color: var(--light-text);
+    text-decoration: underline;
+}

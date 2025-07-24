@@ -1,0 +1,60 @@
+/* Inspirado en la paleta de Twitch y tus preferencias */
+:root {
+  --purple: #9146ff; /* Morado principal de Twitch */
+  --purple-light: #a970ff;
+  --blue: #5a7cfa;
+  --dark-bg: #0e0e10; /* Fondo oscuro principal */
+  --dark-bg-secondary: #1f1f23; /* Fondo para tarjetas y secciones */
+  --light-text: #f1f1f1;
+  --dark-text: #1a1a1a;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+/* Reseteo básico y tipografía global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--white);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Clase de contenedor para centrar contenido */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+section {
+  padding: 5rem 0;
+}
