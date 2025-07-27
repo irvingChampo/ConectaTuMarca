@@ -10,7 +10,7 @@ const Testimonials = () => {
           <blockquote>
             "¡El equipo de CONECTATUMARCA transformó mi presencia en línea! Mi nueva landing page es rápida, profesional y ha incrementado mis contactos."
           </blockquote>
-          <cite>- Emprendedor Satisfecho (¡Reemplazar con testimonio real!)</cite>
+          <cite>- Emprendedor Satisfecho</cite>
         </div>
       </div>
     </section>

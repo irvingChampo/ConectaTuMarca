@@ -1,0 +1,100 @@
+.pricing-section {
+  background-color: var(--dark-bg);
+}
+
+.pricing-card {
+  background: var(--dark-bg-secondary);
+  border-radius: 15px;
+  max-width: 550px; /* Un poco más de espacio para el texto */
+  margin: 2rem auto 0;
+  padding: 2.5rem;
+  border: 1px solid var(--purple);
+  box-shadow: 0 0 30px rgba(145, 70, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(145, 70, 255, 0.3);
+}
+
+.pricing-header {
+  text-align: center;
+  border-bottom: 1px solid #444; /* Borde un poco más visible */
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pricing-header h3 {
+  font-size: 1.8rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--purple);
+  line-height: 1;
+}
+
+.price span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  vertical-align: super;
+  margin-right: 5px;
+  color: var(--purple-light);
+}
+
+.price .currency {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 5px;
+  opacity: 0.8;
+}
+
+.payment-note {
+  opacity: 0.8;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.pricing-features h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.pricing-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-features li {
+  display: flex;
+  align-items: flex-start; /* Alineado al inicio para textos largos */
+  gap: 12px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.check-icon {
+  color: var(--blue);
+  font-size: 1.2rem;
+  flex-shrink: 0; /* Evita que el ícono se encoja */
+  margin-top: 2px; /* Alineación vertical fina */
+}
+
+.pricing-footer {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+/* Re-usando el estilo del botón CTA principal para consistencia */
+.pricing-footer .cta-button-main {
+  width: 100%;
+}
